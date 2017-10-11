@@ -28,7 +28,7 @@
     },
     "autoload": {
         "psr-4": {
-            "spelbreker\\SwimTimesApi\\": "src"
+            "spelbreker\\SwimTimesApi\\": "src/"
         }
     },
     "extra": {
