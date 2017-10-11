@@ -1,6 +1,6 @@
 <?php
 
-namespace PatrickBrouwer\SwimTimesApi;
+namespace spelbreker\SwimTimesApi;
 
 use Illuminate\Support\ServiceProvider;
 
