@@ -29,6 +29,9 @@ class SwimTimesApiServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+      $this->app->singleton(SwimTimes::class, function () {
+          return new SwimTimes();
+      });
+      $this->app->alias(SwimTimes::class, 'SwimTimes');
     }
 }

@@ -23,7 +23,10 @@
         "laravel": {
             "providers": [
                 "spelbreker\\SwimTimesApi\\SwimTimesApiServiceProvider"
-            ]
+            ],
+            "aliases": {
+              "Debugbar": "spelbreker\\SwimTimesApi\\SwimTimesApiFacade"
+            }
         }
     },
     "autoload": {

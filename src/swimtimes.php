@@ -10,7 +10,7 @@ use SqueSportz\SwimTimes\Connector;
  * Date: 22-3-2017
  * Time: 09:41
  */
-class swimTimes
+class SwimTimes
 {
 
     public $api;
