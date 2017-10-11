@@ -25,7 +25,7 @@
                 "spelbreker\\SwimTimesApi\\SwimTimesApiServiceProvider"
             ],
             "aliases": {
-              "Debugbar": "spelbreker\\SwimTimesApi\\SwimTimesApiFacade"
+              "SwimTimes": "spelbreker\\SwimTimesApi\\SwimTimesApiFacade"
             }
         }
     },
