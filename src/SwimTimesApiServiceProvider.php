@@ -17,6 +17,11 @@ class SwimTimesApiServiceProvider extends ServiceProvider
         $this->publishes([
             __DIR__ . '/../config/swimtimes.php' => config_path('swimtimes.php'),
         ]);
+		
+		
+		$this->app->bind('swimTimes', function($app){
+			return new SwimTimes;
+		});
 
         //include the connector for the connector class from SqueSportz
         include realpath(dirname(__FILE__)).'/SqueSportz/SwimTimes/connector.class.php';
