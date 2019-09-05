@@ -24,7 +24,7 @@ class SwimTimesApiServiceProvider extends ServiceProvider
 		});
 
         //include the connector for the connector class from SqueSportz
-        include realpath(dirname(__FILE__)).'/SqueSportz/SwimTimes/connector.class.php';
+        include_once realpath(dirname(__FILE__)).'/SqueSportz/SwimTimes/connector.class.php';
     }
 
     /**
